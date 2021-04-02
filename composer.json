@@ -1,5 +1,5 @@
 {
-    "name": "skoellen/laravel-product-managemer",
+    "name": "skoellen/laravel-product-manager",
     "description": "A package to create and manage a product catalogue within your Laravel applications.",
     "license": "MIT",
     "autoload": {

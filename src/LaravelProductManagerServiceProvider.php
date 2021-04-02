@@ -2,6 +2,18 @@
 
 namespace Skoellen\LaravelProductManager;
 
-class LaravelProductManagerServiceProvider {
-    //
+use Illuminate\Support\ServiceProvider;
+
+class LaravelProductManagerServiceProvider extends ServiceProvider {
+
+    public function register()
+    {
+        //
+    }
+
+    public function boot()
+    {
+        //
+    }
+
 }
