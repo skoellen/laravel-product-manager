@@ -46,5 +46,9 @@ class TestCase extends TestbenchTestCase
             'database' => ':memory:',
             'prefix'   => '',
         ]);
+
+        include_once __DIR__.'/../database/migrations/create_categories_table.php.stub';
+        (new \CreateCategoriesTable())->up();
+
     }
 }
