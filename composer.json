@@ -1,0 +1,28 @@
+{
+    "name": "skoellen/laravel-product-managemer",
+    "description": "A package to create and manage a product catalogue within your Laravel applications.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Skoellen\\LaravelProductManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skoellen\\LaravelProductManager\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skoellen\\LaravelProductManager\\LaravelProductManagerServiceProvider"
+            ],
+            "aliases": {
+                "ProductManager": "Skoellen\\LaravelProductManager\\Facade\\ProductManager"
+            }
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.16"
+    }
+}
